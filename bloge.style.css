@@ -131,7 +131,7 @@ nav .material-symbols-outlined {
     }
     .card img {
         display: inline-flex;
-        width: 5%;
+        width: 50%;
         margin-left: -45%;              
     }
 }
