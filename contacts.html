@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="contacts.style.css">
+    <title>contacts page</title>
+</head>
+<body>
+     <!----------------Header seaction start  -------------------->
+     <section class="header">
+        <nav>
+            <a href="bloge.html"><img src="image/logo.png" alt=""></a>
+            <div class="nav-links" id="NavLinks">
+                <span class="material-symbols-outlined" onclick="hideMenu()">close</span>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="bloge.html">BLOG</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                </ul>
+            </div>
+
+            <span class="material-symbols-outlined" onclick="showMenu()">menu</span>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>Contant Us</h1>
+        </div>
+    </section>
+                <!---------------------- Header to action end-------------------- -->
+
+
+    <div class="Map">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.3279892618802!2d73.0431376742982!3d31.405088252830943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922433850175d37%3A0x8145e3605c425703!2sVirtual%20University%20Jhang%20Road%20Faisalabad%20Campus%20(PFSD07)%20Lawrence%20College%20of%20IT!5e0!3m2!1sen!2s!4v1703772789119!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+    </div>
+
+
+    <!-- Contant form -->
+
+<div class="card">
+        
+        <div class="icon-contant-card">
+            <i class="fa-solid fa-house-chimney"> 
+                <p class="one-1">Xyz Rood, Abc Building</p> <br> 
+                <p class="one-contant">Bangalare,Karatchdi IN</p>
+            </i>
+            <i class="fa-sharp fa-solid fa-phone">
+                <p class="one-1">+9200 0000000</p> <br> 
+                <p class="Two-contant">Monday to Saturday 10 Am to 6 Pm</p>
+            </i>
+            <i class="fa-solid fa-envelope">
+                <p class="one-1">info@Email/Gmail.com</p> <br> 
+                <p class="Three-contant">Email used your query</p>
+            </i>
+        </div>
+
+
+        <!-- Form saction -->
+        <div class="form-contant">
+
+        <form action="">
+            <div class="form_container">
+                <div class="form_control">
+                    <input id="first_name" name="first_name" placeholder="Enter your Name"  required>
+                </div>
+                <br>
+
+                <div class="form_control">
+                    <input id="Email" name="Email" placeholder="Enter Email address"  required>
+                </div>
+                <br>
+
+                <div class="form_control">
+                    <input id="text" name="text" placeholder="Enter your Subject"  required>
+                </div>
+                <br>
+                
+                <div class="textarea_control">
+                    <textarea name="text" id="Message" cols="70" rows="5" placeholder="Message"></textarea>
+                </div>
+            </div>
+        </form> 
+
+        <div class="button_container">
+            <button type="submit">Send Message</button>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+    <!---------------------- Footer to action start-------------------- -->
+
+    <section class="Footer">
+        <h4>About US</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatibus 
+        cum tempora cumque. Magnam voluptatibus at neque eius quasi expedita, <br> facere ipsa 
+        laborum sunt laudantium, asperiores vitae. Inventore, error porro.
+        </p>
+
+        <div class="icon">
+          
+                    <a href="https://www.facebook.com/profile.php?id=100093887089881" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                
+
+                
+                    <a href="https://www.instagram.com/btw._.hussainn/" target="_blank">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                
+
+
+                
+                    <a href="https://twitter.com/Hussain47571234"  target="_blank">
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </a>
+                
+
+                
+
+                    <a href="https://www.linkedin.com/in/hussain-shahid-67b984287/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+            </ul>
+
+        </div>
+
+        <div class="heart-contant">
+            <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </section>
+
+            <!---------------------- Call to action End-------------------- -->
+
+
+
+<!-- Java script for Toggle Menu  -->
+<script>
+
+    var navLinks = document.getElementById("NavLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+</body>
+</html>
