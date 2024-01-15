@@ -125,13 +125,13 @@ nav .material-symbols-outlined {
     width: 60%;
 }
 
-@media(max-width: 700px){
+@media(max-width: 600px){
     .card {
         display: inline;
     }
     .card img {
         display: inline-flex;
-        width: 80%;
+        width: 75%;
         margin-left: -45%;              
     }
 }
